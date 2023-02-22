@@ -1,0 +1,8 @@
+metastore.thrift.uris=thrift://catalog.us.dataengine.cloud.ibm.com:9083
+metastore.use.SSL=true
+metastore.truststore.path=/Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home/lib/security/cacerts
+metastore.truststore.password=changeit
+metastore.client.auth.mode=PLAIN
+metastore.client.plain.username=crn:v1:bluemix:public:sql-query:eu-de:a/<randomid>::
+metastore.client.plain.password=<apikey>
+metastore.execute.setugi=false
